@@ -2,12 +2,9 @@
 Panyshkin Andrey laba 4 variant 17
 6113
 */
-#define _USE_MATH_DEFINES
 #include <iostream>
-#include <cmath>
 #include <conio.h>
 #include <windows.h>
-#include <time.h>
 
 using namespace std;
 
