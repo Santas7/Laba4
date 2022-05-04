@@ -120,6 +120,9 @@ public:
     void Read(char* filename) {
         //FILE* fp = fopen(filename, "w");
     }
+    void Save(char* filename) {
+        //save in file object
+    }
     Array() 
         : _N(0), _A(NULL)
     {
