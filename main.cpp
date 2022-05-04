@@ -1,6 +1,5 @@
 /*
-???????????? ?????? ????? 3 ??????? 17 (2)
-???????? ??????
+Panyshkin Andrey laba 4 variant 17
 6113
 */
 #define _USE_MATH_DEFINES
@@ -22,7 +21,7 @@ private:
     char* value;
 public:
     void Print() const override {
-        cout << "Книга " << value << " уже существует!" << endl;
+        cout << "Book " << value << " already exist!" << endl;
     }
     EAlreadyExists(char* name)
         : value(name)
@@ -34,7 +33,7 @@ private:
     int _value;
 public:
     void Print() const override {
-        cout << "Объект index = " << _value << " не существует!" << endl;
+        cout << "?????? index = " << _value << " ?? ??????????!" << endl;
     }
     ENotExists(int value)
         : _value(value)
